@@ -113,3 +113,20 @@ body {
     background-color: #212428;
   }
 }
+@media only screen and {max-width:300px} {
+.offcanvas{
+  background-color: #212428;
+}
+
+.navbar-nav{
+  background-color: #212428;
+}
+.cart{
+  width:300px;
+}
+
+.cart-2 {
+  margin: 10px 10px 15px 50px;
+    width: 60px;
+}
+}
