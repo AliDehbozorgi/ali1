@@ -28,10 +28,6 @@ body {
   background-color: #212428;
 }
 
-.text-color {
-  color: rgb(200, 206, 211);
-}
-
 .logo {
   width: 190px;
 }
@@ -45,83 +41,75 @@ body {
 }
 
 .banner {
-  height: 600px;
+  height: 550px;
   box-shadow: -18px 8px 20px rgb(20 19 19);
   border-radius: 25px;
 }
 
-.text-skills{
+.text-skills {
   margin-right: 300px;
 }
 
-
-
-
-
-.skills-card{
+.skills-card {
   border: none;
   box-shadow: 3px 2px 20px black;
   padding: 18px;
   border-radius: 25px;
-   transition: all 0.7s;
-
+  transition: all 0.7s;
 }
 
-.skills-card:hover{
+.skills-card:hover {
   transform: scale(1.05);
-
 }
 
-
-
-.sample-text{
+.sample-text {
   display: flex;
   justify-content: space-between;
 }
 
-
-
-.sample-1{
+.sample-1 {
   border-radius: 25px;
   transition: all 0.7s;
   border: 0;
-  padding: 15px; 
-  box-shadow: 20px 3px 20px 10px #1c1c1c;}
-
-.sample-1:hover{
-  transform: scale(1.05);
-
+  padding: 15px;
+  box-shadow: 20px 3px 20px 10px #1c1c1c;
 }
 
-.sample-1 img{
+.sample-1:hover {
+  transform: scale(1.05);
+}
+
+.sample-1 img {
   border-radius: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.sample:hover{
+.sample:hover {
   transform: scale(1.05);
-  
 }
 
-
-
-.sample img{
+.sample img {
   border-radius: 25px;
 }
 
-
-
-
-
-
-
+@media only screen and (max-width: 600px) {
+  .banner {
+    height: 400px;
+    margin: 0;
+  }
+  .text-skills {
+    margin: 0;
+  }
+  .navbar-nav {
+    background-color: #212428;
+  }
+  .cart-2 {
+    margin: 10px 10px 15px 50px;
+    width: 60px;
+  }
+  .cart{
+    width: 300px;
+  }
+  .offcanvas{
+    background-color: #212428;
+  }
+}
